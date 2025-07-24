@@ -12,7 +12,7 @@ const pressure1 = document.getElementById("pressure");
 const visibility1 = document.getElementById("visibility");
 const img = document.getElementById("img");
 const container = document.getElementById("container");
-const map = document.getElementById("map");
+const map = document.getElementById("carouselslide");
 const weather = document.getElementById("weather");
 const apiKey = "acea729982ae0eaf3c70c17f5a484aa7"; 
 
@@ -54,26 +54,3 @@ function getWeather(city) {
     });
 }
 
-
-
-
-//chart//
-const one = document.getElementById('weatherChart').getContext('2d');
-
-const weatherChart = new Chart(one, {
-  type: 'line',
-  data: {
-    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-    datasets: [{
-      label: 'Temperature (°C)',
-      data: [22, 24, 21, 25, 27, 26, 23],
-      backgroundColor: 'rgba(33, 150, 243, 0.2)',
-      borderColor: 'rgba(33, 150, 243, 1)',
-      borderWidth: 2,
-      fill: true,
-      tension: 0.3,
-      pointBackgroundColor: 'rgba(33, 150, 243, 1)'
-    }]
-  },
-
-});

@@ -12,7 +12,7 @@ body{
     color: white;
 }
 
-.container{
+.container1{
     position: relative;
     left: 500px;
     top: 70px;
@@ -38,7 +38,7 @@ input{
     align-items: center;
 }
 
-button{
+#searchBtn{
     position: relative;
     top: 25px;
     left: 5px;
@@ -49,7 +49,7 @@ button{
     cursor: pointer
 }
 
-button:hover{
+#searchBtn:hover{
     background-color: rgba(248, 246, 246, 0.637);
 }
 
@@ -60,11 +60,11 @@ button:hover{
     display: flex;
 }
 
-h4{
+.h4{
     font-size: 30px;
 }
 
-p{
+.p{
     position: relative;
     top: 120px;
     right: 90px;
@@ -214,33 +214,36 @@ p{
     transform: translateY(10px);
 }
 
-
-.map{
+#carouselslide{
     display: none;
     position: relative;
     left: 720px;
     bottom: 380px;
 }
 
-.chart-container {
-  width: 40%;
-  max-width: 500px;
-  background: #f8f3f39d;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-  text-align: center;
-  position: relative;
-  top: 22px;
+#carouselslide img{
+    width: 100%;
+    max-width: 500px;
 }
-
 
 
 /*media*/
 @media(max-width:768px) {
+    body{
+    margin: 0;
+    padding: 0;
+    font-family:Oswald;
+    background-image: url(rodion-kutsaiev-PEm_sLmJT-w-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330vh;
+    width: 100%;
+    color: white;
+}
+
     .container{
     position: relative;
-    right: 500px;
+    left: 200px;
     top: 40px;
     height:450px;
     width: 400px;
@@ -251,7 +254,6 @@ p{
 
 input{
     position: relative;
-    right: 280px;
     top: 25px;
     width: 300px;
     height: 25px;
@@ -263,12 +265,14 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 8px;
 }
 
 button{
     position: relative;
     top: 25px;
-    left: 5px;
+    left: 0px;
+    right: 500px;
     border: none;
     border-radius: 100px;
     width: 35px;
@@ -297,9 +301,104 @@ p{
     right: 70px;
 }
 
+
+
+}
+
+
+@media(max-width:450px) {
+    body{
+    margin: 0;
+    padding: 0;
+    font-family:Oswald;
+    background-image: url(rodion-kutsaiev-PEm_sLmJT-w-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330vh;
+    width: 100%;
+    color: white;
+}
+
+    .container{
+    position: relative;
+    right: 350px;
+    top: 40px;
+    height:500px;
+    width: 400px;
+    background: rgba(129, 129, 129, 0.726);
+    border: none;
+    border-radius: 25px;
+}
+
+input{
+    position: relative;
+    right: 320px;
+    top: 25px;
+    width: 300px;
+    height: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.048);
+    border-radius: 18px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    position: relative;
+    top: 25px;
+    left: 0px;
+    right: 500px;
+    border: none;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+button:hover{
+    background-color: rgba(248, 246, 246, 0.637);
+}
+
+.img{
+    position: relative;
+    left: 0px;
+    top: 70px;
+    display: flex;
+}
+
+h4{
+    font-size: 25px;
+}
+
+p{
+    position: relative;
+    top: 120px;
+    right: 70px;
+}
+
 .map{
     display: none;
     position: relative;
+    left: 50px;
+    bottom: 0px;
+    top: 70px;
 }
+
+.chart-container {
+  width: 50%;
+  max-width: 500px;
+  background: #f8f3f39d;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  position: relative;
+  top: 22px;
+}
+
+
 
 }
