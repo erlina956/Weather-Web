@@ -15,7 +15,7 @@ body{
 .container1{
     font-family:Oswald;
     position: relative;
-    left: 500px;
+    left: 460px;
     top: 70px;
     height:500px;
     width: 450px;
@@ -113,7 +113,7 @@ input{
 
 #temp{
     font-family:Oswald;
-    font-size: 80px;
+    font-size: 74px;
     position: relative;
     left: 50px;
     bottom: 100px;
@@ -126,7 +126,7 @@ input{
     font-size: 20px;
     position: relative;
     left: 290px;
-    bottom: 140px;
+    bottom: 120px;
     text-transform: uppercase;
 }
 
@@ -237,20 +237,20 @@ input{
     transform: translateY(10px);
 }
 
-.carousel-item, .carousel-control-next, .carousel-control-prev {
-  position: relative;
-  left: 720px;
-  bottom: 500px;
-}
-
-.carousel-item img {
-  width: 400px;
+.carousel-wrapper {
+    width: 550px;
+    position: absolute;
+    top: 50px; 
+    right: 100px;
 }
 
 .carousel-inner img {
-  max-width: 600px;
-  margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
 }
+
+
 
 
 
@@ -328,7 +328,18 @@ p{
     right: 70px;
 }
 
+.carousel-wrapper {
+    width: 550px;
+    position: absolute;
+    top:500px; 
+    right: 190px;
+}
 
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
 
 }
 
@@ -407,7 +418,7 @@ p{
 
 .one{
     font-family:Oswald;
-    width: 380px;
+    width: 390px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.281);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.479);
@@ -415,7 +426,7 @@ p{
     border-radius: 18px;
     position: relative;
     top: 40px;
-    right: 32px;
+    right: 30px;
     transition: 1s ease;
 }
 
@@ -428,7 +439,7 @@ p{
     font-size: 42px;
     position: relative;
     bottom: 10px;
-    left: 145px;
+    left: 170px;
     color: white;
 }
 
@@ -436,7 +447,7 @@ p{
     font-family:Oswald;
     font-size: 50px;
     position: relative;
-    left: 10px;
+    left: 5px;
     bottom: 80px;
     color: white;
 }
@@ -446,7 +457,7 @@ p{
     color: white;
     font-size: 20px;
     position: relative;
-    left: 145px;
+    left: 160px;
     bottom: 100px;
     text-transform: uppercase;
 }
@@ -495,7 +506,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
     transition: 1s ease;
 }
 
@@ -504,7 +515,7 @@ p{
 }
 
 #wind{
-    width: 200px;
+    width:200px;
     height: 120px;
     background: rgba(129, 129, 129, 0.726);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.37);
@@ -514,7 +525,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
     transition: 1s ease;
 }
 
@@ -533,7 +544,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 14px;
     transition: 1s ease;
 }
 
@@ -552,7 +563,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 14px;
     transition: 1s ease;
 }
 
@@ -560,6 +571,18 @@ p{
     transform: translateY(10px);
 }
 
+.carousel-wrapper {
+    width: 400px;
+    position: absolute;
+    top:480px; 
+    right: 95px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
 
 
 
