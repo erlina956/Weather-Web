@@ -13,6 +13,7 @@ body{
 }
 
 .container1{
+    font-family:Oswald;
     position: relative;
     left: 500px;
     top: 70px;
@@ -24,6 +25,7 @@ body{
 }
 
 input{
+    font-family:Oswald;
     position: relative;
     top: 25px;
     width: 350px;
@@ -33,12 +35,14 @@ input{
 }
 
 .search{
+    font-family:Oswald;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #searchBtn{
+    font-family:Oswald;
     position: relative;
     top: 25px;
     left: 5px;
@@ -62,12 +66,16 @@ input{
 
 .h4{
     font-size: 30px;
+    font-family:Oswald;
+    position: relative;
+    top: 27px;
 }
 
 .p{
+    font-family:Oswald;
     position: relative;
-    top: 120px;
-    right: 90px;
+    top: 100px;
+    right: 60px;
 }
 
 #weather{
@@ -78,6 +86,7 @@ input{
 }
 
 .one{
+    font-family:Oswald;
     width: 610px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.281);
@@ -94,28 +103,37 @@ input{
 }
 
 #name{
+    font-family:Oswald;
     font-size: 55px;
     position: relative;
-    bottom: 30px;
-    left: 270px;
+    bottom: 10px;
+    left: 290px;
+    color: white;
 }
 
 #temp{
+    font-family:Oswald;
     font-size: 80px;
     position: relative;
     left: 50px;
     bottom: 100px;
+    color: white;
 }
 
 #description{
+    font-family:Oswald;
+    color: white;
     font-size: 20px;
     position: relative;
-    left: 280px;
+    left: 290px;
     bottom: 140px;
     text-transform: uppercase;
 }
 
+
 .two{
+    font-family:Oswald;
+    color: white;
     display: flex;
     position: relative;
     left: 100px;
@@ -125,6 +143,8 @@ input{
 }
 
 .three{
+    font-family:Oswald;
+    color: white;
     display: flex;
     position: relative;
     top: 70px;
@@ -132,6 +152,9 @@ input{
 }
 
 .four{
+    font-family:Oswald;
+    color: white;
+    font-family: Oswald;
     display: flex;
     position: relative;
     top: 35px;
@@ -214,17 +237,21 @@ input{
     transform: translateY(10px);
 }
 
-#carouselslide{
-    display: none;
-    position: relative;
-    left: 720px;
-    bottom: 380px;
+.carousel-item, .carousel-control-next, .carousel-control-prev {
+  position: relative;
+  left: 720px;
+  bottom: 500px;
 }
 
-#carouselslide img{
-    width: 100%;
-    max-width: 500px;
+.carousel-item img {
+  width: 400px;
 }
+
+.carousel-inner img {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 
 
 /*media*/
@@ -241,7 +268,7 @@ input{
     color: white;
 }
 
-    .container{
+    .container1{
     position: relative;
     left: 200px;
     top: 40px;
@@ -268,11 +295,11 @@ input{
     gap: 8px;
 }
 
-button{
+#searchBtn{
     position: relative;
     top: 25px;
-    left: 0px;
-    right: 500px;
+    left: 5px;
+    right: 200px;
     border: none;
     border-radius: 100px;
     width: 35px;
@@ -319,12 +346,12 @@ p{
     color: white;
 }
 
-    .container{
+    .container1{
     position: relative;
-    right: 350px;
+    left: 30px;
     top: 40px;
-    height:500px;
-    width: 400px;
+    height:450px;
+    width: 390px;
     background: rgba(129, 129, 129, 0.726);
     border: none;
     border-radius: 25px;
@@ -332,7 +359,6 @@ p{
 
 input{
     position: relative;
-    right: 320px;
     top: 25px;
     width: 300px;
     height: 25px;
@@ -349,7 +375,7 @@ input{
 button{
     position: relative;
     top: 25px;
-    left: 0px;
+    left: 5px;
     right: 500px;
     border: none;
     border-radius: 100px;
@@ -379,25 +405,161 @@ p{
     right: 70px;
 }
 
-.map{
-    display: none;
+.one{
+    font-family:Oswald;
+    width: 380px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.281);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.479);
+    border: none;
+    border-radius: 18px;
     position: relative;
-    left: 50px;
-    bottom: 0px;
-    top: 70px;
+    top: 40px;
+    right: 32px;
+    transition: 1s ease;
 }
 
-.chart-container {
-  width: 50%;
-  max-width: 500px;
-  background: #f8f3f39d;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-  text-align: center;
-  position: relative;
-  top: 22px;
+.one:hover{
+   transform: translateY(10px);
 }
+
+#name{
+    font-family:Oswald;
+    font-size: 42px;
+    position: relative;
+    bottom: 10px;
+    left: 145px;
+    color: white;
+}
+
+#temp{
+    font-family:Oswald;
+    font-size: 50px;
+    position: relative;
+    left: 10px;
+    bottom: 80px;
+    color: white;
+}
+
+#description{
+    font-family:Oswald;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 145px;
+    bottom: 100px;
+    text-transform: uppercase;
+}
+
+
+.two{
+    font-family:Oswald;
+    color: white;
+    display: flex;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.three{
+    font-family:Oswald;
+    color: white;
+    display: flex;
+    position: relative;
+    top: 70px;
+    right: 35px;
+    gap: 5px;
+}
+
+.four{
+    font-family:Oswald;
+    color: white;
+    font-family: Oswald;
+    display: flex;
+    position: relative;
+    top: 35px;
+    right: 35px;
+    gap: 5px;
+}
+
+#humindity{
+    width: 200px;
+    height: 120px;
+    background: rgba(129, 129, 129, 0.726);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.37);
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: 1s ease;
+}
+
+#humindity:hover{
+    transform: translateY(10px);
+}
+
+#wind{
+    width: 200px;
+    height: 120px;
+    background: rgba(129, 129, 129, 0.726);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.37);
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: 1s ease;
+}
+
+#wind:hover{
+    transform: translateY(10px);
+}
+
+#pressure{
+    width: 200px;
+    height: 30px;
+    background: rgba(129, 129, 129, 0.726);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.37);
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: 1s ease;
+}
+
+#pressure:hover{
+    transform: translateY(10px);
+}
+
+#visibility{
+    width: 200px;
+    height: 30px;
+    background: rgba(129, 129, 129, 0.726);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.37);
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: 1s ease;
+}
+
+#visibility:hover{
+    transform: translateY(10px);
+}
+
 
 
 
